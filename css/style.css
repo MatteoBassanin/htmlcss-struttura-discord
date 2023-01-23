@@ -52,7 +52,7 @@ nav{
 }
 
 .text_header{
-    width: 70%;
+    width: 60%;
     background-color: pink;
     height: 70%;    
 }
@@ -70,21 +70,27 @@ nav{
     min-height: 500px;   
 }
 
-.container{
-    padding: 50px 250px;
+
+
+.section_white ,.section_grey , .section_bot , .foot_top{
+    width: 70%;
+    margin: auto;
 }
 
 .container.grey{
     background-color: grey;
+    padding: 30px 0;
+   
 }
 
 .section_bot{ 
-    min-height: 700px;
+    min-height: 400px;
     background-color: green;   
 }
 
-.container.black{
+.container_black_top{
     background-color:black;
+    padding: 10px 0 30px;
     
 }
 
@@ -105,12 +111,21 @@ nav{
     width: calc(70% / 4);
 }
 
+.foot_bot{
+    width: 70%;
+    margin: auto;
+}
 
-
+.container_black_bottom{
+    background-color: black;
+    padding-top: 10px;
+    border-top: 1px solid white;
+}
 
 .container_bottom{
     display: flex;
     justify-content: space-between;
     background-color: aquamarine;
     height: 30px;
+    padding-bottom: 0;
 }
