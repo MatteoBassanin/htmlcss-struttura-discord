@@ -6,15 +6,18 @@
 
 /* debug */
 
-/* {
+.debug_pic {
     width: 70%;
     height: 300px;
-    background-color: red;
-    margin: auto;
-} */
+    background-color: red;    
+}
 
 
-
+.debug_text {
+    width: 30%;
+    height: 300px;
+    background-color: yellow;    
+}
 
 
 
@@ -36,7 +39,7 @@ nav{
 }
 
 .header_bot{    
-    background-color: blue;
+    background-color:blue;
     height: 350px;
 }
 
@@ -54,3 +57,21 @@ nav{
     align-items: center;
     justify-content: center;
 }
+
+
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 120px;
+    min-height: 500px;   
+}
+
+
+
+.container_grey{
+    background-color: grey;
+}
+
+
