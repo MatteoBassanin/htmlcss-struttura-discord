@@ -29,7 +29,7 @@
 }
 
 .debug{
-    height: 70px;
+    height: 300px;
 }
 
 /* css */
@@ -83,17 +83,19 @@ nav{
     background-color: green;   
 }
 
-
 .container.black{
     background-color:black;
+    
 }
+
+.container.top{
+    border-bottom: 1px solid white;
+}
+
 
 .foot_top{
     display: flex;
-
 }
-
-
 
 .social{
     width: 30%;
@@ -101,4 +103,14 @@ nav{
 
 .list{
     width: calc(70% / 4);
+}
+
+
+
+
+.container_bottom{
+    display: flex;
+    justify-content: space-between;
+    background-color: aquamarine;
+    height: 30px;
 }
