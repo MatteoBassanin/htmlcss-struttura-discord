@@ -12,16 +12,11 @@
     background-color: red;    
 }
 
-
 .debug_text {
     width: 30%;
     height: 300px;
     background-color: yellow;    
 }
-
-
-
-
 
 /* css */
 
@@ -43,7 +38,6 @@ nav{
     height: 350px;
 }
 
-
 .text_header{
     width: 70%;
     background-color: pink;
@@ -58,20 +52,23 @@ nav{
     justify-content: center;
 }
 
-
-
-section{
+.section_white ,.section_grey {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0 120px;
+    
     min-height: 500px;   
 }
 
+.container{
+    padding: 50px 250px;
+}
 
-
-.container_grey{
+.container.grey{
     background-color: grey;
 }
 
-
+.section_bot{ 
+    min-height: 700px;
+    background-color: green;   
+}
