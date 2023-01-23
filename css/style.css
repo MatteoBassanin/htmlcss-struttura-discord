@@ -41,9 +41,11 @@
 
 nav{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     height: 100%;
+    width: 70%;
+    margin: auto;
 }
 
 .header_bot{    
@@ -70,8 +72,6 @@ nav{
     min-height: 500px;   
 }
 
-
-
 .section_white ,.section_grey , .section_bot , .foot_top{
     width: 70%;
     margin: auto;
@@ -97,7 +97,6 @@ nav{
 .container.top{
     border-bottom: 1px solid white;
 }
-
 
 .foot_top{
     display: flex;
